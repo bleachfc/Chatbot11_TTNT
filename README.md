@@ -1,5 +1,6 @@
+# Trí Tuệ Nhân Tạo
 # Đề tài: Xây dựng hệ thống chatbot tư vấn tập gym.
-
+> **Nhóm 11**
 
 # Tải Project về máy:
 > Chạy lệnh: **git clone https://github.com/bleachfc/Chatbot11_TTNT.git**
