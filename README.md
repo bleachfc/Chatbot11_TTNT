@@ -25,10 +25,10 @@ Sau đó chạy lệnh:  python chatbot.py
 
 # Một số lưu ý:
 
-1.  Train Model:
+**1.  Train Model:**
 > Trước khi chạy chatbot cần training model, trường hợp đã có dữ liệu training trước đó thì có thể bỏ qua phần huấn luyện mô hình.
 
-2.  Import và cài đặt các thư viện cần thiết:
+**2.  Import và cài đặt các thư viện cần thiết:**
 >   pyvi, tflearn và tensorflow.
 >   Có lỗi liên quan đến import thư viện tflearn sẽ gặp phải trong phần này.
 >   Phần này sẽ bị lỗi "can not import name 'is_sequence' from ....", có thể sửa lỗi này bằng cách nhấn Ctrl + Click_chuột_trái vào đường dẫn đến tệp lỗi.
@@ -42,8 +42,8 @@ Sau đó chạy lệnh:  python chatbot.py
 **Sửa lỗi**
 >  Theo thông báo thì lỗi ở dòng: from tensorflow.python.util.nest import is_sequence , để sửa lỗi này, cần thay thế đoạn is_sequence thành is_sequence_or_composite .
 
-3. File Stopwords:
+**3. File Stopwords:**
 >  File Stopwords cần upload để có thể Import.
 
-4. Đường dẫn file:
+**4. Đường dẫn file:**
 > Cần thay thế đường dẫn đến các file và thư mục như: **intents.json, tflearn_logs, model.tflearn, training_data.pkl** trước khi chạy.
