@@ -1,6 +1,3 @@
-# Để chạy trên máy:
-> Chạy lệnh: **git clone https://github.com/bleachfc/Chatbot11_TTNT.git**
-
 # Xây dựng hệ thống chatbot tư vấn tập gym.
 
 >  Phiên bản Python đề nghị: 3.11.5.
