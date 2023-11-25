@@ -45,6 +45,8 @@
 >   Phần này sẽ bị lỗi "can not import name 'is_sequence' from ....".
 
 >   Có thể sửa lỗi này bằng cách nhấn Ctrl + Click_chuột_trái vào đường dẫn đến tệp lỗi.
+
+
 **Mở file**
 
 
