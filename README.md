@@ -1,12 +1,22 @@
+# Đề tài: Xây dựng hệ thống chatbot tư vấn tập gym.
+
+
 # Tải Project về máy:
 > Chạy lệnh: **git clone https://github.com/bleachfc/Chatbot11_TTNT.git**
+# Môi trường:
+>  **Chạy trên Google Colab:** chạy file **Nhom11_ChatbotGym.ipynb**, phần này chỉ có train model và chatbot, không có giao diện.
 
-# Xây dựng hệ thống chatbot tư vấn tập gym.
+>  **Chạy trên Github:** Truy cập link: **https://github.com/bleachfc/Chatbot11_TTNT**, phần này sẽ có giao diện khung chat.
+# Cấu hình đề nghị:
+> Cấu hình máy tính:
+ + Hệ điều hành: Windows 10, 8/8.1, Windows 7, XP, Linux, Mac,…
+ + CPU :    Intel, Core i3 trở lên
+ + RAM :     4 GB trở lên
+ + Ổ cứng :    HDD, SSD
+ + System type: 64 bit, 32 bit.
 
->  Phiên bản Python đề nghị: 3.11.5.
 
->  kích hoạt venv bằng lệnh: **python -m venv myvenv** và tải các thư viện cần thiết.
-
+>  Kích hoạt venv bằng lệnh: **python -m venv myvenv** và tải các thư viện cần thiết.
 
 >  Các thư viện cần cài đặt: **pyvi, tensorflow, tflearn, flask, flask-cors**.
 
