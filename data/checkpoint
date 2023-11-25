@@ -1,0 +1,2 @@
+model_checkpoint_path: "d:\\CB1\\data\\model.tflearn"
+all_model_checkpoint_paths: "d:\\CB1\\data\\model.tflearn"

@@ -1,0 +1,504 @@
+{
+    "intents": 
+    [
+        {
+            
+            "tag": "greeting",
+            "patterns":["xin chào","Xinn chào","chào","hi","hello","chào bạn","chào nhé","chào cậu nhé","hey","hú","hí"],
+            "responses":["Xin chào bạn","Chào bạn","Chào cậu","Chào bạn nhé","Chào bạn tôi là bot","Bạn có cần mình giúp gì không?"]
+            
+        },
+        {
+            "tag": "farewell",
+            "patterns":["tạm biệt","bye","goodbye","bye bye","tạm biệt nhé","Hẹn gặp lại bạn sau","bye nhé","chia tay đi"],
+            "responses":["Tạm biệt bạn","Hẹn gặp lại bạn sau","Bye bye","Bye bye bạn","Bye bye tôi là bot","Bye bye nhé", "rất vui được giúp đỡ bạn!"]
+           
+        },
+        {
+            "tag": "thanks",
+            "patterns":["cảm ơn","thanks","thank you","thank you so much","cảm ơn bạn","cảm ơn bạn nhiều","cảm ơn bạn nhé","cảm ơn bạn rất nhiều","cảm ơn"],
+            "responses":["Không có gì","Không có gì bạn","Không có gì đâu","Không có gì đâu", "Nếu bạn cần giúp đỡ hãy tìm đến mình nhé, đừng ngại!"]
+        
+        },
+        {
+            "tag": "name_bot",
+            "patterns" : [ "Bạn là ai?","ban la ai?","bạn la ai?","ban ten gi?","bạn tên gì?"],
+            "responses" : ["Mình là bot","Mình là chat bot tư vấn tập gym","Tôi chỉ là chatbot thôi, tôi không cần tên","Tôi là chatbot tư vấn tập gym","Tôi là chatbot tư vấn tập gym, bạn có thể gọi tôi là bot"]
+           
+        },
+        {
+            "tag": "bat_dau_tap",
+            "patterns": [
+            "Làm thế nào để bắt đầu tập luyện?",
+            "Cách bắt đầu tập gym",
+            "Tôi nên bắt đầu từ đâu?"
+            ],
+            "responses": [
+            "Để bắt đầu, bạn nên xác định mục tiêu tập luyện của mình. Sau đó, lên kế hoạch tập luyện và chế độ dinh dưỡng phù hợp với mục tiêu đó."
+            ]
+        },
+        {
+            "tag": "loai_hinh_tap_luyen",
+            "patterns": [
+            "Có những loại hình tập luyện nào?",
+            "Tập luyện như thế nào?",
+            "Loại hình tập gym"
+            ],
+            "responses": [
+            "Có nhiều loại hình tập luyện như cardio, tập luyện sức mạnh, yoga, và nhiều hơn nữa. Bạn nên chọn loại hình phù hợp với mục tiêu cá nhân của mình."
+            ]
+        },
+        {
+            "tag": "thoi_gian_tap",
+            "patterns": [
+            "Bao lâu mỗi buổi tập?",
+            "Thời gian tập luyện tốt nhất",
+            "Lên lịch tập như thế nào?"
+            ],
+            "responses": [
+            "Thời gian tập luyện tốt nhất phụ thuộc vào mục tiêu của bạn. Tuy nhiên, thường thì 30-60 phút mỗi buổi tập là đủ để có lợi ích."
+            ]
+        },
+        {
+            "tag": "dinh_duong",
+            "patterns": [
+            "Chế độ dinh dưỡng nào tốt khi tập luyện?",
+            "Ăn uống như thế nào khi tập gym?",
+            "Lên kế hoạch ăn uống"
+            ],
+            "responses": [
+            "Chế độ dinh dưỡng quan trọng để đạt được kết quả tốt khi tập luyện. Hãy tập trung vào việc ăn đủ protein, rau củ, và đủ nước."
+            ]
+        },
+        {
+            "tag": "tu_van_ho_tro",
+            "patterns": [
+            "Cần tư vấn gì thêm?",
+            "Hỗ trợ tư vấn tập luyện",
+            "Tư vấn về tập luyện"
+            ],
+            "responses": [
+            "Nếu bạn cần thêm sự hỗ trợ hoặc tư vấn cụ thể, hãy liên hệ với chuyên gia tập luyện hoặc bác sĩ. Chúng tôi sẽ hỗ trợ bạn!"
+            ]
+        },
+        {
+            "tag": "tang_cuong_co_ban",
+            "patterns": [
+            "Làm thế nào để tăng cường cơ bắp?",
+            "Tập luyện tăng cường cơ",
+            "Bài tập cho cơ bắp"
+            ],
+            "responses": [
+            "Để tăng cường cơ bắp, bạn cần thực hiện các bài tập như xoay cơ, plank, squat, và nhiều bài tập khác. Lên kế hoạch tập luyện đều đặn và kiên nhẫn."
+            ]
+        },
+        {
+            "tag": "gioi_thieu_the_hinh",
+            "patterns": [
+            "The hình là gì?",
+            "Tìm hiểu về the hình",
+            "The hình tập luyện"
+            ],
+            "responses": [
+            "The hình là quá trình phát triển cơ bắp và sức mạnh thông qua tập luyện và chế độ dinh dưỡng. Đối với nhiều người, the hình còn là một mục tiêu tập luyện."
+            ]
+        },
+        {
+            "tag": "tap_luyen_hieu_qua",
+            "patterns": [
+            "Làm thế nào để tập luyện hiệu quả?",
+            "Bí quyết tập luyện",
+            "Lên kế hoạch tập luyện hiệu quả"
+            ],
+            "responses": [
+            "Tập luyện hiệu quả đòi hỏi kế hoạch cụ thể, chế độ dinh dưỡng đúng, và ý thức tập trung cao. Hãy đặt mục tiêu và tuân thủ kế hoạch của mình."
+            ]
+        },
+        {
+            "tag": "the_hinh_nu",
+            "patterns": [
+            "The hình nữ như thế nào?",
+            "Tìm hiểu về the hình nữ",
+            "Mục tiêu the hình nữ"
+            ],
+            "responses": [
+            "The hình nữ thường nhấn mạnh sự săn chắc, dẻo dai và cân đối. Bài tập cardio và tập luyện sức mạnh đều quan trọng để đạt được vóc dáng ổn định và khỏe mạnh."
+            ]
+        },
+        {
+            "tag": "tap_luyen_nang_cao",
+            "patterns": [
+            "Làm thế nào để tập luyện nâng cao?",
+            "Tăng cường kỹ thuật tập luyện",
+            "Bí quyết tập luyện nâng cao"
+            ],
+            "responses": [
+            "Để tập luyện nâng cao, hãy tăng dần cường độ, sử dụng trang thiết bị tập luyện, và thực hiện các bài tập mới để thách thức cơ bắp của bạn."
+            ]
+        },
+        {
+            "tag": "menu",
+            "patterns": ["Tôi muốn đặt hàng", "Có loại thức ăn nào?", "Món ngon của bạn là gì?"],
+            "responses": ["Bạn đã sẵn sàng để đặt hàng chưa? Nhà hàng của chúng tôi có pizza, pasta rau cải, bò tái. Đây là các món đặc biệt của chúng tôi", "Tôi có thể giúp gì cho bạn? Đây là menu. Vui lòng hỏi nếu bạn có bất kỳ câu hỏi nào."],
+            "context_set": ""
+        },
+        {
+            "tag": "tap_gym",
+            "patterns": ["Tập gym ở đây như thế nào?", "Các dịch vụ tập luyện tại đây như thế nào?", "Tôi có thể tập luyện tại phòng tập này không?"],
+            "responses": ["Phòng tập của chúng tôi có trang thiết bị hiện đại và đội ngũ HLV chuyên nghiệp sẵn lòng hướng dẫn bạn mọi lúc.", "Tập luyện tại phòng tập của chúng tôi mang lại trải nghiệm tuyệt vời với các lớp học và máy móc đầy đủ.", "Chúng tôi đảm bảo bạn sẽ có một buổi tập hiệu quả với các dịch vụ và trang thiết bị tốt nhất."],
+            "context_set": ""
+        },
+        {
+            "tag": "gio_hoat_dong",
+            "patterns": ["Giờ hoạt động của phòng tập là gì?", "Khi nào tốt nhất để đến tập luyện?", "Phòng tập mở cửa vào lúc nào?"],
+            "responses": ["Phòng tập mở cửa từ thứ Hai đến Chủ Nhật, từ 6 giờ sáng đến 10 giờ tối.", "Buổi sáng từ 6 giờ đến 11 giờ là thời điểm tốt nhất để tập luyện với ít người nhất.", "Hãy đến thăm chúng tôi vào buổi tối từ 5 giờ đến 10 giờ nếu bạn muốn tránh đông đúc."],
+            "context_set": ""
+        },
+        {
+            "tag": "dich_vu",
+            "patterns": ["Phòng tập có cung cấp dịch vụ nào khác không?", "Tôi có thể thuê HLV cá nhân không?", "Có lớp học nhóm không?"],
+            "responses": ["Ngoài việc tập luyện tự do, chúng tôi còn cung cấp dịch vụ HLV cá nhân và các lớp học nhóm đa dạng như yoga, zumba, và pilates.", "Có, bạn có thể thuê HLV cá nhân để có lịch trình tập luyện cá nhân và hiệu quả.", "Chúng tôi có lịch học nhóm linh hoạt, giúp bạn tham gia các buổi tập cùng nhóm bạn có cùng sở thích."],
+            "context_set": ""
+        },
+        {
+            "tag": "khuyen_mai",
+            "patterns": ["Có khuyến mãi hoặc ưu đãi gì đặc biệt không?", "Làm thế nào để nhận được giảm giá khi đăng ký tập luyện?", "Có chương trình thành viên không?"],
+            "responses": ["Chúng tôi thường xuyên có các chương trình khuyến mãi đặc biệt vào các dịp lễ và sự kiện, hãy theo dõi trang web của chúng tôi để cập nhật thông tin.", "Bạn có thể đăng ký thành viên của chúng tôi để nhận các ưu đãi và giảm giá đặc biệt trong tháng này.", "Nếu bạn tham gia vào các lớp học nhóm hoặc đăng ký dài hạn, chúng tôi có chương trình ưu đãi đặc biệt dành cho bạn."],
+            "context_set": ""
+        },
+        {
+            "tag": "huy_member",
+            "patterns": ["Làm thế nào để hủy đăng ký thành viên?", "Tôi muốn hủy gói tập luyện của mình.", "Có phí hủy member không?"],
+            "responses": ["Để hủy đăng ký, bạn cần liên hệ với chúng tôi qua điện thoại hoặc đến trực tiếp tại quầy lễ tân.", "Có, hủy đăng ký sớm có thể áp dụng phí hủy member tùy theo điều khoản của gói tập luyện bạn đã chọn.", "Xin lưu ý rằng việc hủy đăng ký có thể yêu cầu thực hiện theo quy định của chúng tôi và bạn cần đến trực tiếp để xử lý thủ tục hủy gói tập luyện của mình."],
+            "context_set": ""
+        },
+        {
+            "tag": "cam_on_tap_gym",
+            "patterns": ["Cảm ơn, tôi sẽ đến tập luyện sớm.", "Rất cảm ơn, tôi chắc chắn sẽ ghé lại phòng tập của bạn.", "Tôi đã hiểu rõ, cảm ơn bạn nhiều."],
+            "responses": ["Chúng tôi rất mong đợi sự xuất hiện của bạn. Chúc bạn có một buổi tập luyện thú vị!", "Cảm ơn bạn đã chọn chúng tôi là nơi tập luyện. Chúng tôi sẽ cố gắng hết sức để giúp bạn đạt được mục tiêu tập luyện của mình.", "Rất vui được phục vụ bạn. Nếu bạn có bất kỳ câu hỏi hoặc yêu cầu nào khác, đừng ngần ngại liên hệ với chúng tôi."]
+        },
+        {
+            "tag": "hoidoanhnghiep",
+            "patterns": ["Doanh nghiệp của bạn hoạt động trong lĩnh vực gì?", "Lĩnh vực kinh doanh của bạn là gì?", "Bạn làm gì để kiếm tiền?"],
+            "responses": ["Chúng tôi hoạt động trong lĩnh vực phát triển phần mềm và công nghệ thông tin.", "Doanh nghiệp của chúng tôi chuyên về phát triển ứng dụng di động và giải pháp phần mềm.", "Chúng tôi là một công ty công nghệ với chuyên môn về phát triển phần mềm và dịch vụ kỹ thuật."],
+            "context_set": "hoidoanhnghiep"
+        },
+        {
+            "tag": "sodoanhnghiep",
+            "patterns": ["Doanh nghiệp của bạn có bao nhiêu nhân viên?", "Số lượng nhân viên trong công ty là bao nhiêu?", "Nhân viên của bạn là ai?"],
+            "responses": ["Chúng tôi có một đội ngũ gồm hơn 100 nhân viên tài năng.", "Hiện tại, công ty có khoảng 150 nhân viên làm việc trong các bộ phận khác nhau.", "Nhân viên của chúng tôi bao gồm các nhà phát triển, kiến trúc sư phần mềm, và nhân sự chuyên nghiệp."],
+            "context_set": "hoidoanhnghiep"
+        },
+        {
+            "tag": "congtac",
+            "patterns": ["Làm thế nào để tham gia vào công ty của bạn?", "Có cơ hội làm việc tại công ty của bạn không?", "Có vị trí công việc nào đang mở không?"],
+            "responses": ["Nếu bạn quan tâm đến việc làm tại công ty của chúng tôi, vui lòng ghé thăm trang web của chúng tôi để xem danh sách vị trí công việc hiện tại.", "Chúng tôi luôn tìm kiếm các ứng viên có năng lực và đam mê. Bạn có thể tìm hiểu về các cơ hội làm việc trên trang web của chúng tôi.", "Nếu bạn có kiến thức và kỹ năng phù hợp, chúng tôi sẵn sàng chào đón bạn vào đội ngũ của chúng tôi."],
+            "context_set": "hoidoanhnghiep"
+        },
+        {
+            "tag": "tuchoichidinh",
+            "patterns": ["Tôi không hài lòng với chất lượng dịch vụ của bạn.", "Tôi muốn hủy gói dịch vụ của mình.", "Làm thế nào để tôi khiếu nại về dịch vụ của bạn?"],
+            "responses": ["Chúng tôi xin lỗi về sự bất tiện mà bạn đã gặp phải. Vui lòng liên hệ với bộ phận dịch vụ khách hàng của chúng tôi để chúng tôi có thể giải quyết vấn đề của bạn.", "Nếu bạn muốn hủy gói dịch vụ, vui lòng liên hệ với chúng tôi và chúng tôi sẽ hỗ trợ bạn về thủ tục hủy.", "Chúng tôi luôn lắng nghe ý kiến của khách hàng và sẵn sàng cải thiện chất lượng dịch vụ."],
+            "context_set": "tuchoichidinh"
+        },
+        {
+            "tag": "suthaydoi",
+            "patterns": ["Làm thế nào để tôi thay đổi thông tin cá nhân của mình?", "Tôi muốn cập nhật địa chỉ email của mình.", "Có thể thay đổi mật khẩu tài khoản của tôi không?"],
+            "responses": ["Để thay đổi thông tin cá nhân của bạn, vui lòng đăng nhập vào tài khoản của mình và sử dụng các tùy chọn chỉnh sửa.", "Bạn có thể tự thay đổi địa chỉ email và mật khẩu tài khoản của mình trong phần cài đặt tài khoản trên trang web của chúng tôi.", "Nếu bạn gặp khó khăn trong việc thay đổi thông tin cá nhân, liên hệ với chúng tôi và chúng tôi sẽ hỗ trợ bạn."],
+            "context_set": "suthaydoi"
+        },
+        {
+            "tag": "goicuoc",
+            "patterns": ["Có bao nhiêu gói cước hoặc tùy chọn dịch vụ?", "Tôi muốn biết về gói dịch vụ và giá cả.", "Có bất kỳ chương trình khuyến mãi nào không?"],
+            "responses": ["Chúng tôi có nhiều gói dịch vụ và tùy chọn linh hoạt cho khách hàng. Bạn có thể tìm hiểu chi tiết về chúng trên trang web của chúng tôi.", "Giá cả và thông tin về các gói dịch vụ hiện có có thể được tìm thấy trên trang web của chúng tôi.", "Chúng tôi thường xuyên tổ chức các chương trình khuyến mãi đặc biệt cho khách hàng mới và khách hàng thân thiết. Vui lòng kiểm tra trang web của chúng tôi để cập nhật các ưu đãi mới nhất."],
+            "context_set": "goicuoc"
+        },
+        {
+            "tag": "suakhachhang",
+            "patterns": ["Tôi có thể đề xuất một ý kiến hoặc phản hồi về dịch vụ của bạn không?", "Làm thế nào để tôi liên hệ với bộ phận chăm sóc khách hàng của bạn?", "Tôi cần hỗ trợ về một vấn đề cụ thể."],
+            "responses": ["Chúng tôi rất hoan nghênh ý kiến và phản hồi của khách hàng. Bạn có thể gửi ý kiến của mình thông qua trang web hoặc liên hệ trực tiếp với bộ phận chăm sóc khách hàng của chúng tôi.", "Nếu bạn cần hỗ trợ hoặc có câu hỏi nào, đừng ngần ngại liên hệ với chúng tôi qua số điện thoại hoặc email được cung cấp trên trang web của chúng tôi.", "Chúng tôi sẵn lòng giúp đỡ bạn với mọi vấn đề bạn gặp phải. Hãy liên hệ với chúng tôi để được hỗ trợ."],
+            "context_set": "suakhachhang"
+        },
+        {
+            "tag": "khuyenmai",
+            "patterns": ["Có chương trình khuyến mãi nào diễn ra vào thời điểm này không?", "Làm thế nào để tôi nhận được mã giảm giá cho đơn hàng của mình?", "Tôi muốn biết về các ưu đãi hiện tại của bạn."],
+            "responses": ["Chúng tôi luôn có các chương trình khuyến mãi thú vị vào các dịp đặc biệt. Để biết thông tin chi tiết, vui lòng theo dõi trang web hoặc trang mạng xã hội của chúng tôi.", "Nếu bạn muốn nhận mã giảm giá hoặc ưu đãi, hãy đăng ký nhận bản tin của chúng tôi hoặc theo dõi trang mạng xã hội để cập nhật các mã giảm giá mới nhất.", "Những ưu đãi hiện tại của chúng tôi có thể được tìm thấy trên trang web của chúng tôi. Hãy truy cập để xem các ưu đãi đang diễn ra."],
+            "context_set": "khuyenmai"
+        },
+        {
+            "tag": "tuvan",
+            "patterns": ["Tôi muốn biết cách chăm sóc sức khỏe tốt hơn.", "Có gì tôi nên làm để duy trì một lối sống lành mạnh?", "Tôi cần tư vấn về chế độ ăn uống và tập luyện."],
+            "responses": ["Chúng tôi có đội ngũ chuyên gia về dinh dưỡng và tập luyện sẵn sàng tư vấn cho bạn. Liên hệ với chúng tôi để đặt lịch hẹn tư vấn cá nhân.", "Chăm sóc sức khỏe là quan trọng. Chúng tôi có các chuyên gia sẵn lòng hỗ trợ bạn với các lời khuyên về chế độ ăn uống và lịch trình tập luyện.", "Hãy để chúng tôi giúp bạn có một chế độ ăn uống và lối sống lành mạnh để duy trì sức khỏe tốt nhất."],
+            "context_set": "tuvan"
+        },
+        {
+            "tag": "Đưa ra ba mẹo để duy trì sức khỏe.",
+            "patterns": [
+                "Đưa ra ba mẹo để duy trì sức khỏe."
+            ],
+            "responses": [
+                "1. Ăn một chế độ cân bằng và đảm bảo bao gồm đủ rau và trái cây. \n2. Tập thể dục thường xuyên để giữ cơ thể khỏe mạnh và năng động. \n3. Ngủ đủ giấc và duy trì lịch ngủ đều đặn."
+            ],
+            "context_set": ""    
+        },
+        {
+            "tag": "nutrition",
+            "patterns": [
+                "Mình cần thông tin về dinh dưỡng phù hợp khi tập gym",
+                "Dinh dưỡng thế nào là tốt khi tập gym?",
+                "Ăn uống như thế nào khi tập gym?",
+                "Nutrition khi tập gym?",
+                "Dinh dưỡng gym",
+                "Ăn uống khi tập thể dục",
+                "Tôi muốn biết về dinh dưỡng khi tập gym"
+            ],
+            "responses": [
+                "Dinh dưỡng đóng vai trò quan trọng khi tập gym. Bạn nên ăn đủ protein, carbohydrate và chất béo không bão hòa. Đảm bảo uống đủ nước và thực đơn cân đối để hỗ trợ việc tập luyện."
+            ],
+            "context_set": ["nutrition"]
+        },
+        {
+            "tag": "workout_schedule",
+            "patterns": [
+                "Lập kế hoạch tập luyện như thế nào?",
+                "Cách lập kế hoạch tập gym",
+                "Tôi cần một lịch trình tập luyện",
+                "Lịch trình tập gym",
+                "Lập kế hoạch tập luyện"
+            ],
+            "responses": [
+                "Việc lập kế hoạch tập luyện rất quan trọng. Bạn cần xác định mục tiêu, phân chia thời gian cho các nhóm cơ, và thực hiện theo kế hoạch ổn định để đạt được kết quả tốt nhất."
+            ],
+            "context_set": ["workout_schedule"]
+        },
+        {
+            "tag": "muscle_recovery",
+            "patterns": [
+                "Làm thế nào để phục hồi cơ bắp sau khi tập luyện?",
+                "Cách phục hồi cơ bắp",
+                "Tôi cần biết về phục hồi cơ bắp",
+                "Phục hồi sau khi tập gym",
+                "Cách giảm đau cơ sau khi tập"
+            ],
+            "responses": [
+                "Phục hồi cơ bắp là quan trọng sau khi tập luyện. Bạn cần duy trì giấc ngủ đủ và chất lượng, ăn uống cân đối, thực hiện các động tác yoga/stretching và nghỉ ngơi đúng cách để cơ bắp phục hồi tốt hơn."
+            ],
+            "context_set": ["muscle_recovery"]
+        },
+        {
+            "tag": "gym_equipments",
+            "patterns": [
+                "Tôi muốn biết về các thiết bị tập gym",
+                "Thiết bị tập luyện tại phòng gym",
+                "Các dụng cụ tập gym",
+                "Thiết bị gym",
+                "Dụng cụ tập luyện"
+            ],
+            "responses": [
+                "Phòng gym có nhiều thiết bị khác nhau như máy chạy bộ, xà đơn, xà kép, ghế tập tạ, máy đẩy ngực, và nhiều thiết bị khác giúp tập luyện hiệu quả cho từng nhóm cơ khác nhau."
+            ],
+            "context_set": ["gym_equipments"]
+        },
+        {
+            "tag": "goal_setting",
+            "patterns": [
+                "Làm thế nào để đặt mục tiêu tập gym?",
+                "Cách đặt mục tiêu tập luyện",
+                "Tôi cần một mục tiêu khi tập gym",
+                "Đặt mục tiêu khi tập luyện"
+            ],
+            "responses": [
+                "Việc đặt mục tiêu là rất quan trọng khi tập gym. Bạn cần thiết lập mục tiêu cụ thể, đo lường tiến độ và thực hiện các bước nhỏ để đạt được mục tiêu lớn hơn."
+            ],
+            "context_set": ["goal_setting"]
+        },
+        {
+            "tag": "injury_prevention",
+            "patterns": [
+                "Làm thế nào để tránh chấn thương khi tập gym?",
+                "Phòng ngừa chấn thương khi tập luyện",
+                "Tôi muốn biết cách tránh chấn thương khi tập gym",
+                "Cách ngăn chặn chấn thương khi tập luyện"
+            ],
+            "responses": [
+                "Để tránh chấn thương khi tập luyện, bạn cần tiến hành bài tập với đúng kỹ thuật, sử dụng trang thiết bị bảo vệ, làm bài tập khởi động và tập luyện đều đặn để cơ bắp được mở rộng và chuẩn bị tốt cho buổi tập."
+            ],
+            "context_set": ["injury_prevention"]
+        },
+        {
+            "tag": "supplements",
+            "patterns": [
+                "Tôi muốn biết về các loại bổ sung khi tập gym",
+                "Supplement tập gym",
+                "Dinh dưỡng bổ sung khi tập luyện",
+                "Các loại supplement gym",
+                "Tăng cường dinh dưỡng khi tập gym"
+            ],
+            "responses": [
+                "Có nhiều loại supplement hỗ trợ tăng cường dinh dưỡng khi tập gym như whey protein, BCAA, creatine, glutamine, và nhiều loại khác. Tuy nhiên, việc sử dụng cần tuân thủ hướng dẫn và tư vấn của chuyên gia dinh dưỡng."
+            ],
+            "context_set": ["supplements"]
+        },
+        {
+            "tag": "body_weight_training",
+            "patterns": [
+                "Tôi muốn biết về tập gym không cần dụng cụ",
+                "Tập luyện không cần thiết bị",
+                "Bodyweight exercises",
+                "Tập gym chỉ bằng cơ thể"
+            ],
+            "responses": [
+                "Có nhiều bài tập không cần dụng cụ như burpees, push-ups, pull-ups, lunges, squats, và nhiều bài tập yoga/stretching có thể tập luyện chỉ bằng cơ thể mà vẫn hiệu quả."
+            ],
+            "context_set": ["body_weight_training"]
+        },
+        {
+            "tag": "workout_motivation",
+            "patterns": [
+                "Làm thế nào để giữ động lực tập luyện?",
+                "Motivation khi tập gym",
+                "Cách giữ động lực khi tập luyện",
+                "Làm thế nào để không bỏ cuộc khi tập gym"
+            ],
+            "responses": [
+                "Để giữ động lực tập luyện, bạn cần thiết lập mục tiêu rõ ràng, \ntìm nguồn cảm hứng từ các nguồn bên ngoài, tập trung vào tiến bộ của bản thân và thưởng \ncho bản thân sau mỗi mục tiêu hoàn thành."
+            ],
+            "context_set": ["workout_motivation"]
+        },
+        {
+            "tag": "workout_environment",
+            "patterns": [
+                "Môi trường tập luyện quan trọng như thế nào?",
+                "Tác động của môi trường khi tập gym",
+                "Làm thế nào để có môi trường tập luyện tốt?",
+                "Tôi muốn biết về môi trường tập gym"
+            ],
+            "responses": [
+                "Môi trường tập luyện ảnh hưởng đến hiệu quả tập gym. Môi trường tốt bao gồm không gian thoải mái, âm nhạc phù hợp, thiết bị tốt và không gian rộng rãi để tập luyện thoải mái."
+            ],
+            "context_set": ["workout_environment"]
+        },
+        {
+            "tag": "ask_training_advice",
+            "patterns": [
+                "Bạn có thể tư vấn cho mình về lịch tập gym không?",
+                "Tôi cần một lịch tập gym",
+                "Có thể giúp tôi với lịch tập gym không?"
+            ],
+            "responses": [
+                "Tất nhiên, bạn muốn tập luyện mục tiêu nào? Tăng cơ, giảm cân hay cải thiện sức khỏe?"
+            ],
+            "context_set": ["training_advice"]
+        },
+        {
+            "tag": "training_goal",
+            "patterns": [
+                "Tôi muốn tăng cơ",
+                "Mục tiêu của tôi là giảm cân",
+                "Tôi muốn cải thiện sức khỏe"
+            ],
+            "responses": [
+                "Rất tốt! Mình sẽ giúp bạn thiết kế một lịch tập phù hợp với mục tiêu của bạn."
+            ],
+            "context_filter": "training_advice",
+            "context_set": ["training_goal"]
+        },
+        {
+            "tag": "ask_warm_up",
+            "patterns": [
+                "Làm sao để thực hiện bài tập khởi động?",
+                "Tôi cần một bài tập khởi động",
+                "Bài tập khởi động quan trọng như thế nào?"
+            ],
+            "responses": [
+                "Bài tập khởi động giúp cơ thể chuẩn bị tốt trước khi tập luyện, giúp tránh chấn thương và tăng hiệu suất tập luyện. Bạn muốn biết về bài tập khởi động nào?"
+            ],
+            "context_set": ["warm_up"]
+        },
+        {
+            "tag": "cool_down",
+            "patterns": [
+                "Tại sao bài tập cooldown quan trọng?",
+                "Làm thế nào để thực hiện bài tập cooldown?",
+                "Cần phải làm gì sau khi tập luyện?"
+            ],
+            "responses": [
+                "Bài tập cooldown giúp cơ thể trở về trạng thái bình thường sau khi tập, giảm căng thẳng và giúp phục hồi cơ bắp nhanh chóng."
+            ],
+            "context_set": ["cooldown"]
+        },
+        {
+            "tag": "nutrition_advice",
+            "patterns": [
+                "Bạn có thể tư vấn về chế độ ăn uống khi tập gym không?",
+                "Cần một chế độ ăn uống phù hợp với lịch tập luyện",
+                "Làm sao để có chế độ ăn uống tốt khi tập gym?"
+            ],
+            "responses": [
+                "Chế độ ăn uống quan trọng để đạt được mục tiêu tập luyện. Bạn muốn tư vấn về loại thức ăn nào?"
+            ],
+            "context_set": ["nutrition"]
+        },
+        {
+            "tag": "ask_supplements",
+            "patterns": [
+                "Có nên sử dụng thêm các loại bổ sung dinh dưỡng khi tập gym?",
+                "Tôi muốn biết về các loại supplement tốt cho gym",
+                "Supplement nào giúp tăng cường hiệu suất tập luyện?"
+            ],
+            "responses": [
+                "Có nhiều loại supplement hỗ trợ tăng cường hiệu suất và phục hồi cơ bắp sau khi tập. Bạn muốn biết về loại supplement cụ thể nào?"
+            ],
+            "context_set": ["supplements"]
+        },
+        {
+            "tag": "ask_rest_days",
+            "patterns": [
+                "Cần phải nghỉ ngơi bao nhiêu ngày sau mỗi lần tập?",
+                "Tôi cần biết về ngày nghỉ ngơi sau khi tập",
+                "Ngày nghỉ ngơi quan trọng như thế nào?"
+            ],
+            "responses": [
+                "Ngày nghỉ ngơi giúp cơ bắp phục hồi và phát triển, tăng cường sức khỏe nói chung. Thời gian nghỉ phụ thuộc vào mức độ tập luyện và mục tiêu của bạn."
+            ],
+            "context_set": ["rest_days"]
+        },
+        {
+            "tag": "ask_training_schedule",
+            "patterns": [
+                "Tôi cần một lịch tập luyện cụ thể",
+                "Làm thế nào để xây dựng một lịch tập gym?",
+                "Có thể giúp tôi với lịch tập ngày hôm nay không?"
+            ],
+            "responses": [
+                "Để thiết kế một lịch tập phù hợp, chúng ta cần biết rõ mục tiêu và thời gian bạn có để tập luyện. Bạn muốn lịch tập nào? (vd: Full body, Split, Upper/Lower)"
+            ],
+            "context_set": ["training_schedule"]
+        },
+        {
+            "tag": "ask_mental_health",
+            "patterns": [
+                "Tập gym ảnh hưởng thế nào đến tâm lý?",
+                "Tôi cảm thấy tâm lý không ổn khi tập luyện",
+                "Tập luyện có liên quan đến tâm lý không?"
+            ],
+            "responses": [
+                "Tập luyện không chỉ tốt cho cơ thể mà còn có tác động tích cực đến tâm lý, giúp giảm căng thẳng và cải thiện tinh thần."
+            ],
+            "context_set": ["mental_health"]
+        },
+        {
+            "tag": "ask_trainer",
+            "patterns": [
+                "Có nên thuê một huấn luyện viên tập gym không?",
+                "Tôi cần tư vấn từ một huấn luyện viên",
+                "Làm thế nào để chọn một huấn luyện viên tốt?"
+            ],
+            "responses": [
+                "Một huấn luyện viên có thể giúp bạn thiết kế lịch tập và đạt được mục tiêu hiệu quả hơn. Bạn muốn biết về việc chọn huấn luyện viên như thế nào?"
+            ],
+            "context_set": ["trainer"]
+        }
+    ]    
+}
+  
