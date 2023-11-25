@@ -1,3 +1,5 @@
 pyvi
 tflearn
 tensorflow
+flask
+flask-cors
