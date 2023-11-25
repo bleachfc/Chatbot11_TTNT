@@ -1,9 +1,14 @@
 # Xây dựng hệ thống chatbot tư vấn tập gym.
 
 >  Phiên bản Python đề nghị: 3.11.5.
+
 >  kích hoạt venv bằng lệnh: **python -m venv myvenv** và tải các thư viện cần thiết.
+
+
 >  Các thư viện cần cài đặt: **pyvi, tensorflow, tflearn, flask, flask-cors**.
+
 >  Cài bằng lệnh: **pip install -r requirements.txt**.
+
 >  File Stopwords là file chứa các từ dừng, có thể thêm các từ mới vào file.
 
 # Chatbot sử dụng phần UI của tác giả: patrickloeber
