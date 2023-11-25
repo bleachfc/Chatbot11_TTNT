@@ -1,6 +1,6 @@
 # Tải Project về máy:
 > Chạy lệnh: **git clone https://github.com/bleachfc/Chatbot11_TTNT.git**
-> 
+
 # Xây dựng hệ thống chatbot tư vấn tập gym.
 
 >  Phiên bản Python đề nghị: 3.11.5.
@@ -15,18 +15,20 @@
 >  File Stopwords là file chứa các từ dừng, có thể thêm các từ mới vào file.
 
 # Chatbot sử dụng phần UI của tác giả: patrickloeber
-Link trên Github: https://github.com/patrickloeber/chatbot-deployment.
+>  Link trên Github: https://github.com/patrickloeber/chatbot-deployment.
 
 # Để chạy Chatbot cùng giao diện: 
-Chạy file: app.py
+>  Chạy file: app.py.
 
 # Để training thêm dữ liệu cho chatbot:
-Thêm dữ liệu vào file: intents.json
-Chạy file: train_model.json để training sau khi thêm dữ liệu
+>  Thêm dữ liệu vào file: intents.json.
+
+>Chạy file: train_model.json để training sau khi thêm dữ liệu.
 
 # Để chạy file chatbot riêng không kèm giao diện:
-Copy file chatbot.py trong thư mục module ra ngoài thư mục chính.
-Sau đó chạy lệnh:  python chatbot.py
+>  Copy file chatbot.py trong thư mục module ra ngoài thư mục chính.
+
+>  Sau đó chạy lệnh:  python chatbot.py.
 
 # Có thể chạy riêng file ChatbotGym.ipynb trên Google Colab
 
