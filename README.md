@@ -7,9 +7,11 @@
 # Môi trường:
 >  **Chạy trên Google Colab:** chạy file **Nhom11_ChatbotGym.ipynb**, phần này chỉ có train model và chatbot, không có giao diện.
 
->  **Link video hướng dẫn:** https://drive.google.com/file/d/1xXbFAt2Dm1Ocx249UGVGYOA92jsamU_J/view?usp=drive_link
+>  **Link video hướng dẫn chạy trên Colab:** Truy cập link: **https://drive.google.com/file/d/1xXbFAt2Dm1Ocx249UGVGYOA92jsamU_J/view?usp=drive_link** .
 
->  **Chạy trên Github:** Truy cập link: **https://github.com/bleachfc/Chatbot11_TTNT**, phần này sẽ có giao diện khung chat.
+>  **Chạy trên Codespaces Github:** Truy cập link: **https://github.com/bleachfc/Chatbot11_TTNT**, phần này sẽ có giao diện khung chat.
+
+>  **Link video hướng dẫn chạy trên Codespaces Github:** Truy cập link: **.**
 # Cấu hình đề nghị:
 > Cấu hình máy tính:
  + Hệ điều hành: Windows 10, 8/8.1, Windows 7, XP, Linux, Mac,…
