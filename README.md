@@ -37,10 +37,10 @@ Sau đó chạy lệnh:  python chatbot.py
 
 ![alt text](https://github.com/bleachfc/Chatbot11_TTNT/blob/main/Er.png?raw=true)
 
->  Sau khi click , nó sẽ hiện ra nội dung của file vừa mở và đưa đên vị trí đang bị lỗi.
+>  Sau khi click vào đường dẫn , nó sẽ hiện ra nội dung của file vừa mở và đưa đên vị trí đang bị lỗi.
 
 **Sửa lỗi**
->  Theo thông báo thì lỗi ở dòng: from tensorflow.python.util.nest import is_sequence , để sửa lỗi này, cần thay thế đoạn is_sequence thành is_sequence_or_composite .
+>  Theo thông báo thì lỗi ở dòng: **from tensorflow.python.util.nest import is_sequence** , để sửa lỗi này, cần thay thế đoạn **is_sequence** thành **is_sequence_or_composite** .
 
 **3. File Stopwords:**
 >  File Stopwords cần upload để có thể Import.
