@@ -31,10 +31,16 @@ Sau đó chạy lệnh:  python chatbot.py
 2.  Import và cài đặt các thư viện cần thiết:
 >   pyvi, tflearn và tensorflow.
 >   Có lỗi liên quan đến import thư viện tflearn sẽ gặp phải trong phần này.
->   Thay thế đoạn is_sequence thành is_sequence_or_composite
+>   Phần này sẽ bị lỗi "can not import name 'is_sequence' from ....", có thể sửa lỗi này bằng cách nhấn Ctrl + Click_chuột_trái vào đường dẫn đến tệp lỗi.
+**Mở file**
+
 
 ![alt text](https://github.com/bleachfc/Chatbot11_TTNT/blob/main/Er.png?raw=true)
 
+>  Sau khi click , nó sẽ hiện ra nội dung của file vừa mở và đưa đên vị trí đang bị lỗi.
+
+**Sửa lỗi**
+>  Theo thông báo thì lỗi ở dòng: from tensorflow.python.util.nest import is_sequence , để sửa lỗi này, cần thay thế đoạn is_sequence thành is_sequence_or_composite .
 
 3. File Stopwords:
 >  File Stopwords cần upload để có thể Import.
