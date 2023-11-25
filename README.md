@@ -33,6 +33,8 @@ Sau đó chạy lệnh:  python chatbot.py
 >   Có lỗi liên quan đến import thư viện tflearn sẽ gặp phải trong phần này.
 >   Thay thế đoạn is_sequence thành is_sequence_or_composite
 
+![](images_dir/image_path.jpg)
+
 3. File Stopwords:
 >  File Stopwords cần upload để có thể Import.
 
