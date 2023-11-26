@@ -19,7 +19,7 @@
 
 >  **Chạy trên VS Code:** Tải thư mục Chatbot về máy
 
->  **Link video hướng dẫn chạy trên VS Code:** Truy cập link: **.**
+>  **Link video hướng dẫn chạy trên VS Code:** Truy cập link: **https://drive.google.com/file/d/1GuJbriDhtsGWkL7zm8VdYydsp3uDtyBq/view?usp=drive_link**
 # Cấu hình đề nghị:
 > Cấu hình máy tính:
  + Hệ điều hành: Windows 10, 8/8.1, Windows 7, XP, Linux, Mac,…
