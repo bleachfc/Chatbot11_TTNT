@@ -5,12 +5,13 @@
 # Tải Project về máy:
 > Tạo một thư mục có tên Chatbot.
 
-# Cấu trúc thư mục:
-![alt text](https://github.com/bleachfc/Chatbot11_TTNT/blob/main/CT.png)
-
 > Mở Terminal bằng tổ hợp phím: **Ctrl + Shift + `**
 
 > Chạy lệnh: **git clone https://github.com/bleachfc/Chatbot11_TTNT.git** để tải project về máy.
+
+# Cấu trúc thư mục:
+![alt text](https://github.com/bleachfc/Chatbot11_TTNT/blob/main/CT.png)
+
 # Môi trường:
 >  **Chạy trên Google Colab:** chạy file **Nhom11_ChatbotGym.ipynb**, phần này chỉ có train model và chatbot, không có giao diện.
 
